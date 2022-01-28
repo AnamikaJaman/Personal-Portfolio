@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: azure;
+}
+a,p,li,button{
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #122e3f;
+}
+
+.logo{
+    color: #187bcd;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 10px 50px ;
+    letter-spacing: .2em;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-link li a{
+    margin: 0px 25px;
+    color: white;
+}
+
+button{
+    border: none;
+    background-color: #187bcd;
+    margin-right: 50px;
+    padding: 6px 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+h1{
+    text-shadow: 2px 2px 9px #187bcd;
+}
+.top-banner{
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.i-box{
+    border: 2px solid #187bcd ;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px #187bcd;
+    padding: 4px;
+    color: #2a9df4;
+}
+.top-image img{
+    width: 220px;
+    filter: drop-shadow(8px 8px 10px #122e3f);
+    
+}
+.banner-button{
+    padding: 5px;
+}
+
+@media (max-width: 576px) {
+    .top-banner{
+        padding: 40px 80px;
+        display: block;
+    }
+}
